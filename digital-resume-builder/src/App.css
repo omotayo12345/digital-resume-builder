@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: white;
+}
+
+.frame1 {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+/* Header */
+.tab {
+  width: 100%;
+  background: #616161;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  color: white;
+  font-size: 3rem;
+}
+
+/* Form Section */
+.main {
+  width: 50%;
+  background: #989898;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 50px auto;
+  text-align: left;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Download Button */
+.get-started-button {
+  background: #d7d7d7;
+  border-radius: 50px;
+  padding: 20px 50px;
+  text-align: center;
+  margin: auto;
+  width: fit-content;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.get-started-button:hover {
+  background: #b0b0b0;
+}
+
+.get-started-text {
+  color: black;
+  font-size: 1.5rem;
+}
